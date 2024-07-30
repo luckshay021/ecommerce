@@ -1,0 +1,108 @@
+.data_container {
+  padding: 20px;
+  font-size: 30px;
+}
+
+.p_container {
+  width: 100%;
+}
+
+.p_container:hover {
+  width: 100%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.style_box {
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  /* transform: translateX(20px); */
+  /* transform: translateY(20px); */
+  /* transform: translateZ(200px); */
+  /* transform: translate(10px, 50px); */
+  /* transform: rotateX(0deg); */
+  /* transform: rotateY(180deg); */
+  /* transform: rotateZ(270deg); */
+  /* transform: scaleX(1); */
+  /* transform: scaleY(1.5); */
+  transform: scale(1);
+  background-color: red;
+}
+
+.big_box {
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  background-color: bisque;
+}
+
+.big_box1 {
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  background-color: blue;
+}
+
+.big_box2 {
+  height: 100px;
+  width: 100px;
+  font-size: 40px;
+  background-color: bisque;
+}
+
+.style_box:hover {
+  transform: scale(1.5);
+}
+
+.style_box1:hover {
+  transform: translate(20px);
+}
+
+.style_box2:hover {
+  transform: rotateZ(20deg);
+}
+
+.style_box3:hover {
+  transform: skew(20deg);
+}
+
+.BOX {
+  width: 300px;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.transition2 {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  transition-property: background-color;
+  transition-duration: 4s;
+}
+
+
+.transition2:hover {
+  background-color: green;
+}
+
+.target {
+  font-size: 14px;
+  transition-property: font-size, background-color;
+  transition-duration: 2s;
+}
+
+.target:hover {
+  background-color: red;
+  font-size: 45px;
+  cursor: pointer;
+}
+
+.flip_img{
+  transition-duration: 2s;
+}
+
+.flip_img:hover{
+  transform: rotateY(180deg);
+}
