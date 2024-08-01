@@ -159,10 +159,11 @@ function App() {
           style={{
             display: "flex",
             maxWidth: "1200px",
-            justifyContent: "space-between",
             marginLeft: "auto",
             marginRight: "auto",
-            marginTop: 40,
+            // marginTop: 40,
+            padding: 20,
+            gap: 5,
           }}
         >
           <div
@@ -269,6 +270,7 @@ function App() {
             marginLeft: "auto",
             marginRight: "auto",
             marginTop: 40,
+            padding: 20,
           }}
         >
           <p className="text-red-500">This Month</p>
@@ -457,6 +459,7 @@ function App() {
             marginLeft: "auto",
             marginRight: "auto",
             marginTop: 180,
+            padding: 20,
           }}
         >
           <p
@@ -481,7 +484,7 @@ function App() {
                 backgroundColor: "white",
                 // backgroundColor: "red",
                 height: "205.33px",
-                width: "592px",
+                width: "550px",
                 boxShadow: "2px 2px 2px lightblue",
                 display: "flex",
                 gap: 15,
@@ -540,14 +543,15 @@ function App() {
                 <div
                   style={{
                     display: "flex",
-                    justifyContent: "space-between",
+                    // justifyContent: "space-between",
                     width: 370,
+                    gap: 5,
                   }}
                 >
                   <button
                     className="bg-red-500 hover:bg-sky-700 "
                     style={{
-                      width: "181.33px",
+                      width: "150px",
                       height: "32px",
                       color: "white",
                     }}
@@ -557,7 +561,7 @@ function App() {
                   <button
                     className="bg-white hover:bg-sky-700 "
                     style={{
-                      width: "181.33px",
+                      width: "150px",
                       height: "32px",
                       color: "red",
                       borderColor: "red",
@@ -575,7 +579,7 @@ function App() {
                 backgroundColor: "white",
                 // backgroundColor: "red",
                 height: "205.33px",
-                width: "592px",
+                width: "550px",
                 boxShadow: "2px 2px 2px lightblue",
                 display: "flex",
                 gap: 15,
@@ -634,14 +638,15 @@ function App() {
                 <div
                   style={{
                     display: "flex",
-                    justifyContent: "space-between",
+                    // justifyContent: "space-between",
                     width: 370,
+                    gap: 5,
                   }}
                 >
                   <button
                     className="bg-red-500 hover:bg-sky-700 "
                     style={{
-                      width: "181.33px",
+                      width: "150px",
                       height: "32px",
                       color: "white",
                     }}
@@ -651,7 +656,7 @@ function App() {
                   <button
                     className="bg-white hover:bg-sky-700 "
                     style={{
-                      width: "181.33px",
+                      width: "150px",
                       height: "32px",
                       color: "red",
                       borderColor: "red",
@@ -669,7 +674,7 @@ function App() {
                 backgroundColor: "white",
                 // backgroundColor: "red",
                 height: "205.33px",
-                width: "592px",
+                width: "550px",
                 boxShadow: "2px 2px 2px lightblue",
                 display: "flex",
                 gap: 15,
@@ -728,14 +733,15 @@ function App() {
                 <div
                   style={{
                     display: "flex",
-                    justifyContent: "space-between",
+                    // justifyContent: "space-between",
                     width: 370,
+                    gap: 5,
                   }}
                 >
                   <button
                     className="bg-red-500 hover:bg-sky-700 "
                     style={{
-                      width: "181.33px",
+                      width: "150px",
                       height: "32px",
                       color: "white",
                     }}
@@ -745,7 +751,7 @@ function App() {
                   <button
                     className="bg-white hover:bg-sky-700 "
                     style={{
-                      width: "181.33px",
+                      width: "150px",
                       height: "32px",
                       color: "red",
                       borderColor: "red",
@@ -763,7 +769,7 @@ function App() {
                 backgroundColor: "white",
                 // backgroundColor: "red",
                 height: "205.33px",
-                width: "592px",
+                width: "550px",
                 boxShadow: "2px 2px 2px lightblue",
                 display: "flex",
                 gap: 15,
@@ -822,14 +828,15 @@ function App() {
                 <div
                   style={{
                     display: "flex",
-                    justifyContent: "space-between",
+                    // justifyContent: "space-between",
                     width: 370,
+                    gap: 5,
                   }}
                 >
                   <button
                     className="bg-red-500 hover:bg-sky-700 "
                     style={{
-                      width: "181.33px",
+                      width: "150px",
                       height: "32px",
                       color: "white",
                     }}
@@ -839,7 +846,7 @@ function App() {
                   <button
                     className="bg-white hover:bg-sky-700 "
                     style={{
-                      width: "181.33px",
+                      width: "150px",
                       height: "32px",
                       color: "red",
                       borderColor: "red",
@@ -859,7 +866,8 @@ function App() {
             marginRight: "auto",
             maxWidth: 1200,
             marginBottom: 60,
-            marginTop:40,
+            marginTop: 40,
+            padding:10,
           }}
         >
           <div
@@ -879,6 +887,8 @@ function App() {
             <div
               style={{
                 display: "flex",
+                marginTop: 10,
+                alignItems: "center",
               }}
             >
               <FaStar />
@@ -910,7 +920,7 @@ function App() {
                     width: "33%",
                     position: "relative",
                     top: index === 1 ? 50 : 0,
-                    marginBottom:120,
+                    marginBottom: 120,
                   }}
                 >
                   <div
@@ -964,7 +974,7 @@ function App() {
             marginLeft: "auto",
             marginRight: "auto",
             alignContent: "center",
-
+            padding:10,
           }}
         >
           <div
@@ -973,7 +983,7 @@ function App() {
               height: "248px",
               position: "relative",
               alignContent: "center",
-              marginLeft:80
+              marginLeft: 80,
             }}
           >
             <div
@@ -1025,7 +1035,8 @@ function App() {
                   placeholder="Email"
                 ></input>
               </div>
-              <button className="hover:bg-sky-700"
+              <button
+                className="hover:bg-sky-700"
                 style={{
                   height: "48px",
                   width: "144.49px",
@@ -1042,7 +1053,7 @@ function App() {
               width: "408px",
               height: "468.95px",
               position: "absolute",
-              top: 2100,
+              top: 2310,
               right: 300,
             }}
             src={"newsletter.webp"}
@@ -1071,6 +1082,7 @@ export function Footer() {
           justifyContent: "space-between",
           alignContent: "flex-start",
           marginBottom: 40,
+          padding:10,
         }}
       >
         <div
