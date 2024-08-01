@@ -18,6 +18,8 @@ import { VscAccount } from "react-icons/vsc";
 import { CiHeart } from "react-icons/ci";
 import { CiCircleInfo } from "react-icons/ci";
 import { CiSearch } from "react-icons/ci";
+import { LuNewspaper } from "react-icons/lu";
+import { MdOutlineEmail } from "react-icons/md";
 
 function App() {
   const Productdata = [
@@ -857,6 +859,7 @@ function App() {
             marginRight: "auto",
             maxWidth: 1200,
             marginBottom: 60,
+            marginTop:40,
           }}
         >
           <div
@@ -907,6 +910,7 @@ function App() {
                     width: "33%",
                     position: "relative",
                     top: index === 1 ? 50 : 0,
+                    marginBottom:120,
                   }}
                 >
                   <div
@@ -952,6 +956,98 @@ function App() {
             })}
           </div>
         </div>
+        <div
+          style={{
+            backgroundColor: "#e2e8f0",
+            width: "1200px",
+            height: "275.85px",
+            marginLeft: "auto",
+            marginRight: "auto",
+            alignContent: "center",
+
+          }}
+        >
+          <div
+            style={{
+              width: "616px",
+              height: "248px",
+              position: "relative",
+              alignContent: "center",
+              marginLeft:80
+            }}
+          >
+            <div
+              style={{
+                display: "flex",
+                gap: 5,
+              }}
+            >
+              <LuNewspaper color="red" />
+              <span
+                style={{
+                  color: "red",
+                  fontWeight: 500,
+                }}
+              >
+                News Letter
+              </span>
+            </div>
+            <p
+              style={{
+                fontWeight: 700,
+                fontSize: 30,
+              }}
+            >
+              Products update Weekly
+            </p>
+            <div
+              style={{
+                display: "flex",
+                gap: 5,
+              }}
+            >
+              <div
+                style={{
+                  display: "flex",
+                  width: "320px",
+                  height: "48px",
+                  backgroundColor: "white",
+                  alignItems: "center",
+                  gap: 5,
+                }}
+              >
+                <MdOutlineEmail />
+                <input
+                  className=" border-none outline-none"
+                  type="text"
+                  id="fname"
+                  name="email"
+                  placeholder="Email"
+                ></input>
+              </div>
+              <button className="hover:bg-sky-700"
+                style={{
+                  height: "48px",
+                  width: "144.49px",
+                  backgroundColor: "red",
+                  color: "white",
+                }}
+              >
+                Submit
+              </button>
+            </div>
+          </div>
+          <img
+            style={{
+              width: "408px",
+              height: "468.95px",
+              position: "absolute",
+              top: 2100,
+              right: 300,
+            }}
+            src={"newsletter.webp"}
+          />
+        </div>
         <Footer />
       </div>
     </div>
@@ -967,7 +1063,7 @@ export function Footer() {
     >
       <div
         style={{
-          marginTop: 40,
+          marginTop: 100,
           display: "flex",
           maxWidth: 1200,
           marginLeft: "auto",
